@@ -26,3 +26,25 @@ llama-server ^
 --spec-type draft-mtp ^
 -np 1
 ```
+## Benchmark real (RTX 3060 12GB + Xeon 2650 v4)
+
+| Métrica | Valor |
+
+|---|---|
+
+| Prompt processing | 30.49 tokens/s |
+
+| Geração (eval) | 36.52 tokens/s |
+
+| Draft acceptance | 57.7% |
+
+| Mean draft length | 2.73 |
+
+| Graphs reused | 594 |
+
+| Contexto | 128k |
+
+### Screenshot do benchmark
+
+![Benchmark llama.cpp](resultado.png)
+
