@@ -1,6 +1,7 @@
 # llama-config
 Best settings for my pc ( 3060 12gb + xeon 2650 v4 + 32gb DDR4
 
+```batc
 llama-server ^
 -m "%MODEL_DIR%\Qwen3.6-35B-A3B-APEX-MTP-I-Compact.gguf" ^
 --mmproj "%MODEL_DIR%\mmproj-F16.gguf" ^
@@ -24,3 +25,4 @@ llama-server ^
 --no-log-timestamps ^
 --spec-type draft-mtp ^
 -np 1
+```
